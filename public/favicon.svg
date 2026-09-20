@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="geminiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E8CFF"/>
+      <stop offset="50%" stop-color="#9C51FF"/>
+      <stop offset="100%" stop-color="#FF51A5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9C51FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0a0d14" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#0c101c"/>
+  <circle cx="256" cy="256" r="200" fill="url(#glow)"/>
+  <path d="M256 64 C256 170 170 256 64 256 C170 256 256 342 256 448 C256 342 342 256 448 256 C342 256 256 170 256 64 Z" fill="url(#geminiGrad)"/>
+  <circle cx="256" cy="256" r="28" fill="#ffffff" opacity="0.9"/>
+</svg>

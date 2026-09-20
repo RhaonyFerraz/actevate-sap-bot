@@ -1,0 +1,17 @@
+{
+  "name": "Gemini Knowledge Bot",
+  "short_name": "GeminiBot",
+  "description": "Chatbot PWA Inteligente com Google Gemini, Base de Conhecimento na Nuvem e Memória Volátil",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0d14",
+  "theme_color": "#131722",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
